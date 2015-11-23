@@ -65,12 +65,15 @@ group :development do
   gem 'rails_apps_testing'
   gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'rails-footnotes'
 end
 
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'launchy'
+  gem 'letter_opener'
 end
 
 group :test do
