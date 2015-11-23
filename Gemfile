@@ -30,13 +30,13 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'spring-commands-rspec'
-  gem 'rails-footnotes'
+  gem 'rails-footnotes', '~> 4.0'
 end
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
-  gem 'launchy'
+  gem 'binding_of_caller'
   gem 'letter_opener'
 end
 group :test do

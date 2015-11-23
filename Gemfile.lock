@@ -271,6 +271,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
+  binding_of_caller
   bootstrap-sass
   byebug
   capybara
@@ -291,7 +292,7 @@ DEPENDENCIES
   pg
   quiet_assets
   rails (= 4.2.5)
-  rails-footnotes
+  rails-footnotes (~> 4.0)
   rails_layout
   rspec-rails
   sass-rails (~> 5.0)
