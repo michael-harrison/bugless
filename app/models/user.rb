@@ -17,6 +17,8 @@ class User < ActiveRecord::Base
   end
 
   def subscribe
+    return
+    
     mailchimp = Gibbon::Request.new(api_key: Rails.application.secrets.mailchimp_api_key)
     list_id = Rails.application.secrets.mailchimp_list_id
     result = mailchimp.lists(list_id).members.create(
